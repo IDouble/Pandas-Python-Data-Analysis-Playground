@@ -28,7 +28,7 @@ print(df.iloc[10:20])
 ```
 
 ## Print the first Rows from a Dateframe 🗃
-Print the first 10 Rows from a Dateframe. (Method .head(10))
+Print the first 10 Rows from a Dateframe. (Method .head(amount))
 ```
 import pandas as pd
 
@@ -50,4 +50,16 @@ df = pd.read_csv("new_york_city.csv")
 # Prints the first 10 Rows, sorted by Start Time
 
 print(df.iloc[0:10].sort_values(["Start Time"]))
+```
+
+## Print 10 random Rows from a Dateframe 🗃
+Print 10 random Rows from a Dateframe. (Method .sample(amount))
+```
+import pandas as pd
+
+df = pd.read_csv("new_york_city.csv")
+
+# Print 10 random Rows from a Dateframe
+
+print(df.sample(10))
 ```
