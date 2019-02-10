@@ -1,4 +1,4 @@
-# 🐍 Pandas-Python-Data-Analysis-Playground 📊📈
+# 🐍 Pandas Python Data Analysis Playground 📊📈
 🐍 Python Data Analysis with the Pandas Library 📊📈
 
 ## Installation Pandas ⬇️ 
@@ -29,4 +29,17 @@ df = pd.read_csv("new_york_city.csv")
 # Print the first 10 Rows from the Dateframe
 
 print(df.head(10))
+```
+
+
+## Print Rows from a Dateframe and sort them with an attribute 🗃
+Print 10 Rows from a Dateframe using an Integer Index from 0-10 and sort them with an attribute. (Method .sort_values(["Start Time"]))
+```
+import pandas as pd
+
+df = pd.read_csv("new_york_city.csv")
+
+# Prints the first 10 Rows, sorted by Start Time
+
+print(df.iloc[0:10].sort_values(["Start Time"]))
 ```
