@@ -45,7 +45,6 @@ print(df.sample(10))
 ```
 
 ## Create Data Frame 🗂
-Print 10 random Rows from a Dateframe. (Method .sample(amount))
 ```
 # Create data for the Data Frame
 data = {'state': ['Ohio', 'Ohio', 'Ohio', 'Nevada', 'Nevada', 'Nevada'],
