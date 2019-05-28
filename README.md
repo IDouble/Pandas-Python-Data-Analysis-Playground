@@ -54,7 +54,12 @@ data = {'state': ['Ohio', 'Ohio', 'Ohio', 'Nevada', 'Nevada', 'Nevada'],
 df = pd.DataFrame(data)
 ```
 
-## Draw financial Chart 🗂
+## Draw financial Chart 💹
+
+<p align="center">
+  <img width="640" src="Images/Chart_Draw_financial_Chart.png">
+</p>
+
 ```
 import pandas as pd
 import matplotlib.pyplot as plt
