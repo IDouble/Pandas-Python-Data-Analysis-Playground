@@ -54,7 +54,7 @@ data = {'state': ['Ohio', 'Ohio', 'Ohio', 'Nevada', 'Nevada', 'Nevada'],
 df = pd.DataFrame(data)
 ```
 
-## Draw Candlestick Chart with moving averages 💹
+## Draw Candlestick Chart with moving averages 📈
 
 <p align="center">
   <img width="1000" src="Images/Chart_Draw_financial_Candlestick_Chart.png">
