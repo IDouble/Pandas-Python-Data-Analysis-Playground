@@ -55,6 +55,11 @@ df = pd.DataFrame(data)
 ```
 
 ## Draw financial Chart 💹
+
+<p align="center">
+  <img width="640" src="Images/Chart_Draw_financial_Chart.png">
+</p>
+
 ```
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -90,5 +95,3 @@ ax.set_title('Important dates in the 2008-2009 financial crisis')
 
 fig.show()
 ```
-
-![Draw_financial_Chart Pandas Python Example Code](Images/Chart_Draw_financial_Chart.png)
