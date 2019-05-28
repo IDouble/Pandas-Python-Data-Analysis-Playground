@@ -33,7 +33,7 @@ ohlc['SMA50'] = ohlc["Close Price"].rolling(50).mean()
 ohlc['SMA100'] = ohlc["Close Price"].rolling(100).mean()
 ohlc['SMA200'] = ohlc["Close Price"].rolling(200).mean()
 
-#Plotting SMA columns
+# Plotting SMA columns
 # ax.plot(ohlc['Date'], ohlc['SMA5'], color = 'blue', label = 'SMA5')
 # ax.plot(ohlc['Date'], ohlc['SMA10'], color = 'blue', label = 'SMA10')
 # ax.plot(ohlc['Date'], ohlc['SMA20'], color = 'red', label = 'SMA20')
