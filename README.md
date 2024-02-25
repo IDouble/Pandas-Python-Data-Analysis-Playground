@@ -148,3 +148,5 @@ ax.set_title('Important dates in the 2008-2009 financial crisis')
 
 fig.show()
 ```
+
+![Binance Ready to give crypto a try ? buy bitcoin and other cryptocurrencies on binance](Images/binance.jpg)
